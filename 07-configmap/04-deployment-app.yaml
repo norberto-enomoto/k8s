@@ -60,7 +60,7 @@ metadata:
 
 spec:
   rules:
-  - host: hollowapp.hollow.local  
+  - host: hollowapp.hollow.local 
     http:
       paths:
       - path: /

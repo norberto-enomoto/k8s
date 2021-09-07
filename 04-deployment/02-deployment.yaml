@@ -21,6 +21,6 @@ spec: #specifications for our object
     spec:
       containers:
       - name: nginx-container #the name of the container within the pod
-        image: nginx:1.7.9 #which container image should be pulled
+        image: nginx:stable-alpine-perl #which container image should be pulled
         ports:
         - containerPort: 80 #the port of the container within the pod

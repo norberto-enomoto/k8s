@@ -1,0 +1,6 @@
+- kubectl apply -f pod.yaml
+- kubectl get po
+- kubectl get po -o wide
+- kubectl describe pod nginx-pod
+- kubectl logs -f nginx-pod
+- kubectl port-forward nginx-pod 8181:80
