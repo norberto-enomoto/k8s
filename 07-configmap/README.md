@@ -27,3 +27,4 @@
 - kubectl describe deployment hollowapp
 - kubectl get ingress
 - kubectl describe ingress hollowapp
+- minikube tunnel
