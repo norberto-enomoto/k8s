@@ -19,3 +19,9 @@
 - kubectl create deployment web2 --image=gcr.io/google-samples/hello-app:2.0
 - kubectl expose deployment web2 --port=8080 --type=NodePort
 - kubectl apply -f 02-ingress.yaml
+
+# Comandos scale
+- kubectl get po -o wide
+- kubectl scale deployments/web --replicas=2
+- kubectl scale deployments/web2 --replicas=2
+- kubectl get po -o wide
