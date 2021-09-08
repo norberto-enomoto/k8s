@@ -21,3 +21,9 @@
 - kubectl get ingress
 - kubectl describe ingress hollowapp
 - minikube tunnel
+
+# Comandos para excluir o pod do mysql
+- kubectl get po -o wide
+- kubectl delete po <po-name>
+- kubectl get po -o wide
+- minikube tunnel

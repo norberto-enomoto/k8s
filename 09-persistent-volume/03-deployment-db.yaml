@@ -28,7 +28,7 @@ spec:
       volumes:
       - name: mysqlstorage
         persistentVolumeClaim:
-          claimName: mysqlvol
+          claimName: mysql-pv-claim
 ---
 apiVersion: v1 
 kind: Service 
