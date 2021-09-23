@@ -9,7 +9,7 @@
 
 # Implantação do Nginx Ingress Controller
 - minikube addons enable ingress
-- Instalar somente se estiver rodando mais de 1 workernode: kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.44.0/deploy/static/provider/cloud/deploy.yaml 
+- Instalar somente se estiver rodando mais de 1 worker node: kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.44.0/deploy/static/provider/cloud/deploy.yaml 
 - kubectl apply -f 01-ingress.yaml
 - kubectl get ingress
 - kubectl describe ingress example-ingress
